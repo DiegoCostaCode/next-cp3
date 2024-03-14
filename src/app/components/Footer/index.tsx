@@ -1,13 +1,10 @@
 const Footer = () => {
     return(
         <>
-        
-        <footer>
-        <p>Todos os direitos resevados</p>
+        <footer className="flex items-center bg-[#1a1d29] text-[#f9f9f9] h-[150px]">
+            <p className="ml-[20px]">Todos os direitos resevados</p>
         </footer>
-        
         </>
-        
     );
 }
 
